@@ -1,0 +1,22 @@
+.btn:hover{
+    color: red;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bold;
+}
+.modal-header{
+    background-color:rgb(79, 79, 215);
+   
+}
+.modal-title{
+    font-weight: bold;
+    color: white;
+}
+.d-flex{
+    display: flex;
+    width: 80%;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 20px;
+}
