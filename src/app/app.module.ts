@@ -9,6 +9,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { LoginComponent } from './user/login/login.component';
 import { LogoutComponent } from './user/logout/logout.component';
+import { AboutusComponent } from './user/aboutus/aboutus.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LogoutComponent } from './user/logout/logout.component';
     HeaderComponent,
     HomeComponent,
     LoginComponent,
-    LogoutComponent,  
+    LogoutComponent,
+    AboutusComponent,  
   ],
   imports: [
     BrowserModule,
